@@ -6,7 +6,7 @@ public class Rabbit {
 	// PROPERTIES
 	// -----------
 	int xPosition;
-	private int yPosition;
+	 int yPosition;
 	Timer timer;
 
 	
