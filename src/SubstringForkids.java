@@ -3,27 +3,42 @@
 public class SubstringForkids {
 
 	public static void main(String[] args) {
-		System.out.println("substring for the kids");
+		System.out.println("SUBSTRING FOR KIDS");
+		SubstringForkids g1=new SubstringForkids();
+
+		System.out.println(g1.substringForKids(2, 2, "jap"));
 		
-		int t=9;
-		int k=8;
-		String s="navpreet";
-	String commit1=	substringForKids(t,k,s);
-	System.out.println(commit1);
+		
+		System.out.println(g1.substringForKids(1, 7, "harmaghipoiop"));
+		System.out.println(g1.substringForKids(2, 4, "sahib"));
 		
 	
+		System.out.println(g1.substringForKids(5, 3, "nav"));
+		
+	
+		System.out.println(g1.substringForKids(3, -2, "raj"));
+		
 	}
 
 	
-	public static String substringForKids(int i, int j, String sentence) {
+	public String substringForKids(int i, int j, String sentence) {
 		
 String result="";
-	 if(i == j) {
+	if(i < 0 ) {
+		return "numbers are no correct";
+	} else if(i == j) {
 		return "" + sentence.charAt(i);
-} 
-		return "numbers are not equal";
+} else if(i < j){
+		
+		for(int n=i; n<=j ; n++) {
+			result += sentence.charAt(n);
+		}
+		return result; 
+	
+	} else {
+		return "numbers are no valid in string";
 	}
 	
 }
-
+}
 
