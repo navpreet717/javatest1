@@ -11,9 +11,13 @@ public class Rabbit {
 	// -----------
 	// CONSTRUCTOR 
 	// ------------
-	public Rabbit() {
+	public Rabbit(int x,int y) {
+	
+		this.xPosition=x;
+		this.yPosition=y;
 
 	}
+	
 	
 	// -----------
 	// METHODS 
