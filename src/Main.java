@@ -1,8 +1,7 @@
 public class Main {	
 	public static void main(String[] args) throws InterruptedException {
-		Rabbit rabbit = new Rabbit();
+		Rabbit rabbit = new Rabbit( 500, 1000);
 		rabbit.sayHello();
-		
 		
 		boolean runForever = true;
 
