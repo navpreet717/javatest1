@@ -1,11 +1,14 @@
+import com.sun.glass.ui.Timer;
 
 public class Rabbit {
 	
 	// -----------
 	// PROPERTIES
 	// -----------
-	private int xPosition;
+	int xPosition;
 	private int yPosition;
+	Timer timer;
+
 	
 	
 	// -----------
@@ -26,15 +29,11 @@ public class Rabbit {
 		System.out.println("The current position of the rabbit is: ");
 		int right = 0 ;	
 		int left = 0 ;	
-		
-		if (xPosition > 500) {
-	        right *= -1;
-	        xPosition = 15;
-	    } else if (yPosition < 100) {
-	       left *= 15;
-	        yPosition = 15;
+	
+
+
 	    
-	}}
+	}
 
 	public void sayHello() {
 		System.out.println("Hello! I am a rabbit!");
