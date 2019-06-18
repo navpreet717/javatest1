@@ -15,6 +15,9 @@ public class BuyingPhones {
 				
 			double	discount=50;
 				double price2= (price * discount) / 100;
+				System.out.println("Phone 1:"+" $"+price);
+				System.out.println("Phone 2:"+" $"+price);
+				System.out.println("Phone 3:"+" $"+price2);
 				
 				}
 
