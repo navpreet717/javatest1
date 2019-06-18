@@ -32,7 +32,24 @@ public class Rabbit {
 	
 	// ----------------
 	// ACCESSOR METHODS
-	// ----------------
+	// ----------------set
+	public void setx(int xPosition)
+	{
+		this.xPosition=xPosition;
+	}
+	public void sety(int yPosition)
+	{
+		this.yPosition=yPosition;
+	}
+	//get
+	public int getx()
+	{
+		return xPosition;
+	}
+	public int gety()
+	{
+		return yPosition;
+	}
 	
 	// Put all your accessor methods in this section.
 	
